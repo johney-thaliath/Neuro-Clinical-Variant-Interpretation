@@ -1,7 +1,7 @@
 # Neuro-Clinical Variant Interpretation (Epilepsy)
 
 ## Objective
-To identify and interpret pathogenic genetic variants associated with epilepsy using computational bioinformatics methods in R.
+To identify and interpret pathogenic genetic variants associated with epilepsy using computational bioinformatics methods in R using ncbi ClinVar.
 
 ## Workflow
 1. VCF data loading
