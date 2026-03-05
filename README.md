@@ -12,14 +12,17 @@ To identify and analyze pathogenic genetic variants associated with epilepsy usi
 ClinVar variant_summary.txt.gz
 Total variants analyzed: 88,888,525
 
-#Workflow
-Load ClinVar dataset
-Reduce dataset to relevant columns
-Filter epilepsy-related variants
-Identify pathogenic variants
-Perform gene frequency analysis
-Generate visualization plots
-Create clinical summary
+# Analysis Workflow
+ClinVar Dataset  
+↓  
+Data Filtering (Epilepsy phenotypes)  
+↓  
+Pathogenic Variant Selection  
+↓  
+Gene Frequency Analysis  
+↓  
+Visualization and Clinical Summary  
+
 
 #Key Results
 Metric	Value
