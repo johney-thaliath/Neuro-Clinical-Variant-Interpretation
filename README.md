@@ -3,19 +3,32 @@
 ## Objective
 To identify and interpret pathogenic genetic variants associated with epilepsy using computational bioinformatics methods in R using ncbi ClinVar.
 
-## Workflow
-1. VCF data loading
-2. Quality filtering (FILTER == PASS, QUAL > 30)
-3. Gene annotation using Ensembl (biomaRt)
-4. Epilepsy gene prioritisation
-5. Clinical interpretation
+ClinVar Epilepsy Variant Analysis
 
-## Tools Used
-- R
-##Packages Used
-- vcfR
-- biomaRt
-- tidyverse
+#Objective
+To identify and analyze pathogenic genetic variants associated with epilepsy using the ClinVar database.
 
-## Project Status
-In progress — daily research log available in docs/research_log.md
+#Dataset
+ClinVar variant_summary.txt.gz
+Total variants analyzed: 88,888,525
+
+#Workflow
+Load ClinVar dataset
+Reduce dataset to relevant columns
+Filter epilepsy-related variants
+Identify pathogenic variants
+Perform gene frequency analysis
+Generate visualization plots
+Create clinical summary
+
+#Key Results
+Metric	Value
+Epilepsy variants	76,632
+Pathogenic variants	852
+Unique genes	81
+Most mutated gene	SCN1A
+
+#Tools Used
+R- STUDIO
+ggplot2
+ClinVar database
