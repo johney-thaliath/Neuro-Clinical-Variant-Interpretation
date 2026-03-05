@@ -32,3 +32,7 @@ Most mutated gene	SCN1A
 R- STUDIO
 ggplot2
 ClinVar database
+
+## Top Epilepsy Genes
+The most frequently reported pathogenic variants in epilepsy-associated genes were identified using ClinVar data.
+[Top Epilepsy Genes](results/top_epilepsy_genes_plot.png)
